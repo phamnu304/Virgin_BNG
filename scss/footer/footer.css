@@ -1,0 +1,28 @@
+.footer .image {
+  width: 34px;
+  height: 34px;
+}
+.footer .input-email {
+  border: none;
+}
+.footer .input-email:focus {
+  outline: none;
+}
+.footer .content {
+  width: 1440px;
+}
+@media screen and (min-width: 1440px) {
+  .footer .payment {
+    padding: 2rem 0rem 0rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer .policy-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer .policy-container .policy {
+    padding: 0rem 0rem 0rem 5rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,33 @@
+.footer {
+    .image {
+        width: 34px;
+        height: 34px;
+    }
+
+    .input-email {
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .content {
+        width: 1440px;
+    }
+    .payment{
+        @media screen and (min-width: 1440px) {
+            padding: 2rem 0rem 0rem 0;
+        }
+    }
+    .policy-container {
+        @media screen and (min-width: 1440px) {
+            width: 100%;
+        }
+        .policy {
+            @media screen and (min-width: 1440px) {
+                padding: 0rem 0rem 0rem 5rem;
+            }
+        }
+    }
+}

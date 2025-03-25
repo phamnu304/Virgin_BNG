@@ -1,0 +1,75 @@
+.plugin-container {
+    gap: 2rem;
+
+    @media (min-width: 375px) {
+        gap: 3.5rem;
+    }
+
+    @media (min-width: 768px) {
+        gap: 10rem;
+    }
+
+    @media (min-width: 1440px) {
+        gap: 250px;
+    }
+
+    .input-search {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #fff;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    .logo {
+        width: 5rem;
+        height: 100%;
+
+        @media screen and (min-width: 768px) {
+            width: 12rem;
+        }
+
+        @media screen and (min-width: 1440px) {
+            width: 221px;
+        }
+    }
+
+    .nav-mobile {
+        gap: 0.5rem;
+    }
+}
+
+.menu {
+    .menu-content {
+        display: none;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .active {
+        display: block;
+    }
+}
+
+.menu-content-mobile{
+    z-index: 999;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-100%);
+    &.active {
+        transform: translateX(0%);
+    }
+}
+
+.title-store {
+    padding: 32px;
+    background-color: #061424;
+}

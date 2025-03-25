@@ -1,0 +1,75 @@
+.plugin-container {
+  gap: 2rem;
+}
+@media (min-width: 375px) {
+  .plugin-container {
+    gap: 3.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .plugin-container {
+    gap: 10rem;
+  }
+}
+@media (min-width: 1440px) {
+  .plugin-container {
+    gap: 250px;
+  }
+}
+.plugin-container .input-search {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+.plugin-container .input-search:focus {
+  outline: none;
+}
+.plugin-container .input-search::-moz-placeholder {
+  color: #fff;
+}
+.plugin-container .input-search::placeholder {
+  color: #fff;
+}
+.plugin-container .logo {
+  width: 5rem;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .plugin-container .logo {
+    width: 12rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .plugin-container .logo {
+    width: 221px;
+  }
+}
+.plugin-container .nav-mobile {
+  gap: 0.5rem;
+}
+
+.menu .menu-content {
+  display: none;
+}
+.menu .image {
+  width: 100%;
+  height: auto;
+}
+.menu .active {
+  display: block;
+}
+
+.menu-content-mobile {
+  z-index: 999;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-100%);
+}
+.menu-content-mobile.active {
+  transform: translateX(0%);
+}
+
+.title-store {
+  padding-top: 7px;
+  background-color: #061424;
+  align-items: center
+}/*# sourceMappingURL=nav.css.map */
